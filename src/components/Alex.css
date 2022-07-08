@@ -5,3 +5,13 @@
     border-radius: 50%;
     filter: drop-shadow(10px 5px 4px rgba(0, 0, 0, 0.521));
 }
+
+.coolField {
+    display: flexbox;
+    grid-auto-flow: row;
+    align-items: center;
+}
+
+.coolInputField {
+    width: 90%;
+}

@@ -7,7 +7,6 @@ import Alex from './components/Alex';
 function App() {
   return (
     <div className="App">
-      <Bob name='larsdsggs'></Bob>
       <Alex></Alex>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

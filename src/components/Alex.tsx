@@ -10,12 +10,12 @@ const Alex: React.FC<IAlexProps>  = ({ }) => {
     return (
         <>
         <h1>{name}</h1>
-        <button className='skrrt' onClick={() => setName('Mads')}></button>
+        <button className='skrrt' onClick={() => setName(updateName(name))}></button>
         </>    
     )
 }
 
-const UpdateName = (name: string) => {
+const updateName = (name: string) => {
     if (name == 'Lars' ) name = 'Mads'
     else name = 'Lars'
 
